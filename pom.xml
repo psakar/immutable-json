@@ -35,7 +35,7 @@
     <module>reflection</module>
     <module>pointer</module>
     <module>patch</module>
-    <!--<module>native</module>-->
+    <module>native</module>
     <module>jackson</module>
     <module>javax-json</module>
     <module>jawn</module>

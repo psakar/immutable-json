@@ -1,4 +1,4 @@
-module net.hamnaberg.json.immutable.ast {
+module net.hamnaberg.json.ast {
     exports net.hamnaberg.json;
-    requires transitive io.vavr.core;
+    requires transitive io.vavr;
 }

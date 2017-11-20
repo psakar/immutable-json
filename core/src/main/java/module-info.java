@@ -1,5 +1,5 @@
-module net.hamnaberg.json.immutable.core {
+module net.hamnaberg.json.io {
     exports net.hamnaberg.json.io;
-    requires net.hamnaberg.json.immutable.ast;
-    requires static net.hamnaberg.json.immutable.codec;
+    requires net.hamnaberg.json.ast;
+    requires static net.hamnaberg.json.codec;
 }

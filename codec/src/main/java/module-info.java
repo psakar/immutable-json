@@ -1,5 +1,5 @@
-module net.hamnaberg.json.immutable.codec {
+module net.hamnaberg.json.codec {
     exports net.hamnaberg.json.codec;
     exports net.hamnaberg.json.util;
-    requires net.hamnaberg.json.immutable.ast;
+    requires net.hamnaberg.json.ast;
 }

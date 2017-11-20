@@ -1,4 +1,4 @@
-module net.hamnaberg.json.immutable.pointer {
+module net.hamnaberg.json.pointer {
     exports net.hamnaberg.json.pointer;
-    requires net.hamnaberg.json.immutable.ast;
+    requires net.hamnaberg.json.ast;
 }

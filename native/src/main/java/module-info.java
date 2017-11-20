@@ -1,5 +1,6 @@
-module net.hamnaberg.json.immutable.nativeparser {
+module net.hamnaberg.json.nativeparser {
     exports net.hamnaberg.json.nativeparser;
-    requires net.hamnaberg.json.immutable.core;
-    requires net.hamnaberg.json.immutable.ast;
+    requires net.hamnaberg.json.io;
+    requires net.hamnaberg.json.ast;
+    requires org.javafp.parsecj;
 }

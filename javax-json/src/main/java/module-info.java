@@ -1,6 +1,6 @@
-module net.hamnaberg.json.immutable.javax {
+module net.hamnaberg.json.javax {
     exports net.hamnaberg.json.javax;
     requires org.glassfish.java.json;
-    requires net.hamnaberg.json.immutable.core;
-    requires net.hamnaberg.json.immutable.ast;
+    requires net.hamnaberg.json.io;
+    requires net.hamnaberg.json.ast;
 }
